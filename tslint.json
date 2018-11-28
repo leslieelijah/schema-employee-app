@@ -1,5 +1,6 @@
 {
   "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+  "disable-next-line":"object-literal-sort-keys",
   "linterOptions": {
     "exclude": [
       "config/**/*.js",
